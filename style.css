@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+img {
+    border: 1px solid black;
+    width: 30%;
+    margin: calc(9%/6);
+    filter: grayscale(1);
+    transition: 400ms;
+}
+
+img:hover {
+    filter: grayscale(0);
+}
+
+nav {
+    color: #212529;
+    text-transform: uppercase;
+    border-bottom: 2px solid #adb5bd;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding-top: 1em;
+    padding-bottom: 1.25em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+}
